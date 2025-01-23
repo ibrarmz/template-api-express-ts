@@ -62,9 +62,9 @@ Ensure you have the following installed on your machine:
 Contributions are welcome! If you'd like to improve this template:
 
 1. Fork this repository.
-2. Create a new branch for your feature (git checkout -b feature-name).
-3. Commit your changes (git commit -m 'Add new feature').
-4. Push the branch (git push origin feature-name).
+2. Create a new branch for your feature (```git checkout -b feature-name```).
+3. Commit your changes (```git commit -m 'Add new feature'```).
+4. Push the branch (```git push origin feature-name```).
 5. Open a pull request.
 
 ---
