@@ -7,6 +7,8 @@ This is a basic template for creating an API using Express and TypeScript. The p
 ├── dist
 ├── node_modules
 ├── src
+│ ├── routes
+│ | ├── index.ts
 │ ├── index.ts
 ├── .env
 ├── package-lock.json
