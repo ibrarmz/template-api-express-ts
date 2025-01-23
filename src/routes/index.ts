@@ -7,4 +7,4 @@ router.use(authApiKey);
 
 //router.use('/ruta', ruta);
 
-export default router;
+module.exports = router;
