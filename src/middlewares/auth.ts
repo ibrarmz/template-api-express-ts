@@ -9,7 +9,7 @@ if (!apiKey) {
   throw new Error('Environment variable OWN_API_KEY is not defined');
 }
 
-export function authenticateApiKey(req: Request, res: Response, next: NextFunction): any {
+export function authApiKey(req: Request, res: Response, next: NextFunction): any {
   const providedApiKey = req.headers['api-key']?.toString() || req.headers['authorization']?.toString() || null;
 
   if (!providedApiKey) {

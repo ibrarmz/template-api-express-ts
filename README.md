@@ -1,39 +1,71 @@
-# Template to create an API with Express and TypeScript
+# Template for Creating an API with Express and TypeScript 🚀
 
-This is a basic template for creating an API using Express and TypeScript. The project structure follows recommended best practices and provides a solid foundation for developing web applications with these technologies.
+This template provides a robust foundation for building APIs using **Express** and **TypeScript**. It follows industry best practices, ensuring clean and maintainable code. Perfect for kickstarting your next project with modern web development technologies!
 
-## Project Structure
+---
+
+## 🌟 Features
+
+- 🛠 **TypeScript Support**: Write clean and type-safe code.
+- 📁 **Organized Project Structure**: Follows best practices for scalability and maintainability.
+- ⚡ **Environment Variables**: Easy configuration with `.env`.
+- 🐛 **Development Mode**: Integrated scripts for efficient development.
+
+---
+
+## 🗂 Project Structure
+```bash
+├── dist                  # Compiled JavaScript output (generated after build)
+├── node_modules          # Project dependencies
+├── src                   # Source code
+│   ├── config            # Configuration files (e.g., logger setup)
+│   ├── middlewares       # Custom middleware functions
+│   ├── routes            # Route definitions for the API
+│   └── index.ts          # Entry point of the application
+├── .env                  # Environment variables configuration
+├── package.json          # Project configuration and dependencies
+├── package-lock.json     # Locks dependency versions
+├── tsconfig.json         # TypeScript compiler configuration
 ```
-├── dist
-├── node_modules
-├── src
-│ ├── routes
-│ | ├── index.ts
-│ ├── index.ts
-├── .env
-├── package-lock.json
-├── package.json
-├── tsconfig.json
-```
 
-- **dist:** This directory will contain the transpiled TypeScript files.
-- **node_modules:** Directory where the project dependencies are stored.
-- **src:** This is where the source code of the application resides.
-  - **index.ts:** Main file where the application is started.
-- **.env:** File to configure environment variables.
-- **package-lock.json:** Version lock file to ensure replication of dependencies.
-- **package.json:** Project configuration file that includes dependencies and scripts.
-- **tsconfig.json:** TypeScript Settings.
+## 🚀 Development
 
-## Setting
-
-1. Clone this repository: `git clone https://github.com/ibrarmz/template-api-express-ts.git`
-2. Install the dependencies: `npm install`
-3. Set environment variables in the `.env` file as necessary.
-
-## Development
-
-To start the application in development mode, use the following command:
+To start the application in development mode with live reloading, use:
 
 ```bash
 npm run dev
+```
+
+The app will run on the port specified in your .env file or default to 3000.
+
+---
+
+## 🛠 Scripts
+
+The following npm scripts are included for your convenience:
+
++ ``` npm run dev ```: Runs the application in development mode using ts-node-dev for live reload.
++ ``` npm run build ```: Compiles TypeScript into JavaScript and outputs files to the ```dist``` folder.
++  ```npm run start ```: Runs the compiled JavaScript files from the dist folder.
+
+---
+## 📋 Requirements
+
+Ensure you have the following installed on your machine:
+
++ **Node.js** (v16+ recommended)
++ **npm** (v8+ recommended)
+
+---
+
+## 🛡️ Contributing
+Contributions are welcome! If you'd like to improve this template:
+
+1. Fork this repository.
+2. Create a new branch for your feature (git checkout -b feature-name).
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push the branch (git push origin feature-name).
+5. Open a pull request.
+
+---
+🎉 Happy coding! Let’s build something amazing!
